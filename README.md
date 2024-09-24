@@ -3,23 +3,28 @@
 Quick links:
  * Controller App: https://github.com/BiologicalRecordsCentre/recorder-feedback-controller
  * Content Generation: https://github.com/BiologicalRecordsCentre/recorder-feedback-content
- * Indicia Connector: https://github.com/BiologicalRecordsCentre/recorder-feedback-indicia-connector
+ * Connectors
+   * Indicia: https://github.com/BiologicalRecordsCentre/recorder-feedback-indicia-connector
 
 ## Introduction
 
+Biological recorders contribute valuable biodiversity data; and extensive infrastructure exists to support dataflows from recorders submitting records to databases. However, we lack infrastructure dedicated to providing informative feedback to recorders in response to the data they have contributed. By developing this infrastructure, we can create a feedback loop leading to better data and more engaged data providers.
+
 The **Recorder Feedback** system is a suite of tools designed to manage and dispatch feedback to biological recorders, providing valuable insights into the data they have submitted. It integrates several components, including user subscription management, content generation, and content dispatch, all of which are designed to help organizations efficiently communicate with biological recorders. This guide will cover the main components, how they interact, and how to set up and use the system.
+
+The Recorder Feedback system is meant to be modular, flexible and not tied to any perticular recording plafrom (eg. iRecord, iNaturalist).
 
 ## System Overview
 
-Recorder Feedback consists of the following major components:
+Recorder Feedback consists of the following components:
 1. **User Information Management and Subscription Management**: Storing, managing user details and their subscription to feedback lists.
-2. **Database Integrations**: Pulling biological records from databases like Indicia.
+2. **Getting Biological Records from Databases**: Pulling biological records from databases like Indicia.
 3. **Content Generation**: Tools to create customized content based on user data.
 4. **Content Dispatch**: Sending the generated feedback to users via email.
 
 ## User and subscription management
 
-Use and subscription management is done through a **Recorder Feedback Controller App**, which is a Python Flask application. The system manages user profiles and their subscriptions to feedback lists. The Controller App provides a range of API endpoints to manage users, their subscriptions, and (optionally) the dispatch of the feedback content.
+Use and subscription management is done through a **Recorder Feedback Controller App**, which is a Python Flask application. The system manages user profiles and their subscriptions to feedback lists. The Controller App provides a range of API endpoints to manage users, their subscriptions, and (optionally) the dispatch of the feedback content. This was designed to be a standalone entity, rather than add-ons to perticular recording plaforms as it makes it easier to integrate with different recording platforms.
 
 The controller app is available here: https://github.com/BiologicalRecordsCentre/recorder-feedback-controller
 
