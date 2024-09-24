@@ -1,4 +1,5 @@
-# Recorder Feedback
+ ![Recorder feedback logo (2)](https://github.com/user-attachments/assets/87515c0b-d0a2-4c8d-846f-b81a794a0f1f)
+ # Recorder Feedback
 
 ### Quick links to other repositories:
  * Controller App: https://github.com/BiologicalRecordsCentre/recorder-feedback-controller
