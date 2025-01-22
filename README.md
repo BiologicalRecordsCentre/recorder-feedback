@@ -72,9 +72,5 @@ Example code for getting data from Indicia databases is provided in Recorder Fee
 
 Once content has been generated, the system dispatches it to users via email. There are multiple methods for dispatching feedback content:
 
-### Dispatching from the Python Controller App:
-- The Controller App includes functionality to send emails directly using a Flask-Mail integration. 
-- Emails can be dispatched manually by triggering a specific list or can be automated through the job scheduler.
-
 ### Dispatching from R Feedback Generator:
-- The feedback generation pipeline also has an R-based approach for sending emails. See: https://biologicalrecordscentre.github.io/recorder-feedback-content/#Sending_emails
+- The feedback generation pipeline also has an R-based approach for sending emails. See: https://biologicalrecordscentre.github.io/recorder-feedback-content
