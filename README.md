@@ -6,6 +6,7 @@
  * Content Generation: https://github.com/BiologicalRecordsCentre/recorder-feedback-content
  * Connectors
    * Indicia: https://github.com/BiologicalRecordsCentre/recorder-feedback-indicia-connector
+ * Repository: https://github.com/BiologicalRecordsCentre/recorder-feedback-repository
 
 ## Introduction
 
