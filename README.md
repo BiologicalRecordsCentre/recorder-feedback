@@ -18,6 +18,8 @@ The Recorder Feedback system is meant to be modular, flexible and not tied to an
 
 ## System Overview
 
+![Diagram](https://raw.githubusercontent.com/BiologicalRecordsCentre/recorder-feedback/refs/heads/main/Recorder%20feedback%20overall%20process.drawio.png)
+
 In order to be able to deliver personalised, automated feedback, the Recorder Feedback system needs to meet the following needs:
 1. **User Information Management and Subscription Management**: Storing, managing user details and their subscription to feedback lists.
 2. **Getting Biological Records from Databases**: Pulling biological records from databases like Indicia.
